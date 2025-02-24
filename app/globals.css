@@ -1,0 +1,510 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: "Marcellus";
+
+}
+
+body{
+  overflow-x: hidden;
+}
+#main{
+  width: 100%;
+  background: linear-gradient(#dadada,#F6F5F2, #ffffff, #b6b5b5,#dbdbdb);  
+}
+
+                                           /*NAVBAR*/
+
+#nav{
+  display: flex;
+  justify-content:space-around;
+  padding:6vh ;
+  align-items: center;
+  background: none;
+}
+
+#nav a{
+  display: inline-block;
+  font-size: 0.9vw;
+  text-decoration: none;
+  color: black;
+}
+
+#nleft{
+  display: flex;
+  gap: 2vw;
+  background: none;
+
+}
+
+#centertag a{
+  font-size: 1.3vw;
+  position: relative;
+  right: 3vw;
+  background: none;
+
+
+ 
+}
+
+                       /*HERO SECTION*/
+ #hero{
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 4vw;
+  padding: 0vw 12vw;
+  display: flex;
+ 
+ }   
+ 
+ #sustain{
+  width: 16vw;
+  height:30px;
+  padding: 5px 2px;
+  position: relative;
+  bottom: 9vw;
+ }
+
+ #sustain h3{
+  font-size:1vw ;
+ }
+
+ #sustain p{
+  font-size: 1.7vh;
+  padding: 1.2vh 0vh;
+  opacity: .6;
+  line-height: -1;
+  text-transform: capitalize;
+  background: none;
+ }
+
+ 
+ #susimagewrapper img{
+  height: 42vh;
+  width: 14vw;
+
+}
+
+#dreamS img{
+  height: 32vw;
+  width: 24vw;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  /* background-position: center;
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2023/09/27/21/39/furniture-8280352_1280.jpg); */
+}
+
+#heading{
+  font-weight:100;
+  bottom: 24vw;
+  font-size:7vw;
+  right: 36vw;
+  position: absolute;
+  text-align: end;
+  line-height: .6;
+  letter-spacing: -9px;
+}
+
+#heading span{
+  font-size: 2vw;
+  letter-spacing: .2vw;
+  font-family: "Marcellus";
+}
+
+#circleimg{
+  height: 15vw;
+ bottom: 1vw;
+ right: 27vw;
+  width: 15vw;
+  position: absolute;
+  border-radius: 50%;
+  background-position: 0% 75%;
+  background-size: cover;
+  background-image: url(https://design-milk.com/images/2022/01/Aline-Outdoor-Chair-Photo-Poh-Yun-Ru-3-810x1215.jpg);
+}
+
+#circle{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background: none;
+
+}
+
+#circle i{
+  background: none;
+  color: teal;
+}
+#visit{
+  background: none;
+  position: relative;
+  left: 55px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#visit h4{
+  font-weight:normal;
+  font-size: 1vw;
+}
+
+
+                            /*span paragraph*/
+ #motive{
+  padding: 0vw 10vw;
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+ }  
+ #motive h3{
+  font-family: "Cormorant Garamond";
+  font-size: 3vw;
+  line-height: .7;
+  position: relative;
+  bottom: 9px;
+ }
+ 
+ #motive p{
+  position: relative;
+  font-size: 1.2vw;
+  text-align: right;
+  width: 70%;
+  line-height: 1.6;
+
+ }
+
+ #motive span{
+  display: inline-block;
+ 
+  margin: 0 10px;
+  border-radius: 100px;
+  background-color: black;
+  margin-bottom: -12px;
+ }
+
+ #onespan{
+  width: 50px;
+  height: 38px;
+  background-image: url(https://images.pexels.com/photos/13718035/pexels-photo-13718035.png?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  background-position: center;
+  background-size: cover;
+ }
+
+ #twospan{
+  width: 65px;
+  height: 35px;
+  background-image: url(https://images.pexels.com/photos/5716704/pexels-photo-5716704.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+ }
+
+ #threespan{
+  width: 42px;
+  height: 38px;
+  background-image: url(https://i.pinimg.com/236x/94/74/7e/94747ec58e8dad1bebb5c5161e71dda7.jpg);
+  background-position: 0% 60%;
+  background-size: cover;
+ }
+
+
+                       /*pictures section*/
+
+#pictures{
+  width: 100%;
+  height: 100%;
+  padding: 2vw 2vw;
+  margin-top: 8vw;
+ 
+ 
+}
+
+#pictures h1{
+  position: relative;
+  color: black;
+  font-size: 5vw;
+  line-height: .7;
+  font-family: "Cormorant Garamond";
+
+}
+
+#imgbox{
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+}
+#imgb1{
+  width: 35vw;
+  height: 40vw;  
+}
+#imgb2{
+  width: 35vw;
+  height: 40vw;
+}
+#imgb3{
+  width: 35vw;
+  height: 40vw;
+}
+#imgb4{
+  width: 35vw;
+  height: 40vw;
+}
+#imgb5{
+  width: 35vw;
+  height: 40vw;
+}
+#imgb6{
+  width: 35vw;
+  height: 40vw;
+
+}
+#imgb7{
+  width: 35vw;
+  height: 40vw;
+
+}
+
+#heromotive{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 4vw;
+
+}
+#motive1st{
+  padding: 0vw 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+ }  
+ #motive1st h3{
+  font-family: "Cormorant Garamond";
+  font-size: 8vw;
+  line-height: .5;
+  position: relative;
+  bottom: 20px;
+ }
+
+ #motive1st img{
+  height: 15vw;
+  position: relative;
+  width: 12vw;
+  opacity: .8;
+  top: 1vw;
+ }
+ 
+ #motive1st p{
+  font-size: 1vw;
+  position: relative;
+  font-weight: bold;
+  text-align: start;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+
+
+
+ }
+
+ #motive2nd{
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+
+ }  
+ #motive2nd h3{
+  font-family: "Cormorant Garamond";
+  font-size: 3vw;
+  line-height: .5;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+ }
+
+ #motive2nd img{
+  height: 10vw;
+  position: relative;
+  width: 12vw;
+  opacity: .8;
+ }
+ 
+ #motive2nd p{
+  font-size: .7vw;
+  position: relative;
+  font-weight: bold;
+  text-align: end;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+
+
+
+ }
+ /*BANNER SECTION */
+  #banner {
+  width: 100%;
+  height: 80%;
+  margin-top: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+ }  
+ #banner h1{
+  position: absolute;
+  color: black;
+  font-size: 10vw;
+
+ }        
+          
+ #bimg {
+ width: 40%;
+ height: 40vh;
+ opacity: 0;
+ position: relative;
+ background-image: url(https://img.freepik.com/free-photo/minimalist-black-interior-with-black-sofa_1268-31786.jpg?t=st=1731318923~exp=1731322523~hmac=5dba299b2161b799538136df483b97c5a8d0c23eb8b4c7e99cb139d55fa8d03d&w=900);
+ background-position: center;
+ background-size: cover;
+}
+
+
+       /*FUTURE VIDEO*/
+
+
+#future{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+  width: 100%;
+height: 100vh;
+margin-top: 10vw;
+
+}      
+
+ #fimg{
+  position: absolute;
+  width: 100%;
+  border: white solid 3px;
+  height: 100%;
+  opacity:0;
+  background-image:url(https://cdn.pixabay.com/photo/2021/02/15/11/53/man-6017581_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#photos{
+  width: 98%;
+  height: 80%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9vw 3vw;
+
+}
+
+#img1{
+  width: 27vw;
+  height: 40vw;
+  position: relative;
+  left: 15vw;
+}
+
+#img2{
+  width: 12vw;
+  height: 12vw;
+  display: flex;
+  position: relative;
+  top:17vw;
+  left: 5vw;
+}
+
+#img3{
+  width: 22vw;
+  height: 32vw;
+  display: flex;
+  position: relative;
+  right: 15px;
+  bottom: 9px;
+}
+
+#img4{
+  width: 16vw;
+  height: 16vw;
+  display: flex;
+  position: absolute;
+  bottom: 23vw;
+}
+
+#img5{
+  width: 19vw;
+  height: 20vw;
+  display: flex;
+  position: relative;
+  bottom: 5vw;
+}
+
+#img6{
+  width: 18vw;
+  height: 16vw;
+  display: flex;
+  position: absolute;
+  left: 73vw;
+  top: 26vw;
+}
+
+#img7{
+  width: 12vw;
+  height: 17vw;
+  display: flex;
+  position: absolute;
+  top: 25vw;
+ 
+}
+
+#ftext{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+z-index: 9999;
+background-color: white;
+padding: 1vw 3vw;
+}
+
+#ftext h1{
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+#ftext button{
+padding: .8vw 1.7vw;
+font-size: .6vw;
+margin-top: 10px;
+text-transform: capitalize;
+font-weight:700;
+border-radius: 100px;
+background-color: white;
+border: 1px solid #c6c6c6;
+color: #6f6f6f; 
+}
